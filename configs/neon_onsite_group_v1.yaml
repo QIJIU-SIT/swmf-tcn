@@ -1,0 +1,76 @@
+protocol: neon_onsite_group_v1
+sites:
+  WLOU:
+    domain: D13
+    position_policy: discover_active_two
+    humidity_site: WLOU
+    precipitation_site: WLOU
+  CUPE:
+    domain: D04
+    position_policy: discover_active_two
+    humidity_site: CUPE
+    precipitation_site: CUPE
+  SYCA:
+    domain: D14
+    position_policy: discover_active_two
+    humidity_site: SYCA
+    precipitation_site: SYCA
+features:
+- water:DO_mgl
+- water:pH
+- water:specificConductance
+- water:turbidity
+- met:tempRHMean
+- met:RHMean
+- met:precipBulk
+variables:
+  water:
+  - dissolvedOxygen
+  - pH
+  - specificConductance
+  - turbidity
+  meteorology:
+  - tempRHMean
+  - RHMean
+  - precipBulk
+raw:
+  water_roots:
+    WLOU: data/raw/WLOU/water
+    CUPE: data/raw/CUPE/water
+    SYCA: data/raw/SYCA/water
+  humidity_roots:
+    WLOU: data/raw/WLOU/humidity
+    CUPE: data/raw/CUPE/humidity
+    SYCA: data/raw/SYCA/humidity
+  precipitation_roots:
+    WLOU: data/raw/WLOU/precipitation
+    CUPE: data/raw/CUPE/precipitation
+    SYCA: data/raw/SYCA/precipitation
+  products:
+    water: DP1.20288.001
+    humidity: DP1.00098.001
+    precipitation: DP1.00045.001
+splits:
+  train_start: '2019-04-01T00:00:00Z'
+  train_end: '2022-12-31T23:59:59Z'
+  val_start: '2023-01-01T00:00:00Z'
+  val_end: '2023-12-31T23:59:59Z'
+  test_start: '2024-01-01T00:00:00Z'
+  test_end: '2024-12-31T23:59:59Z'
+aggregation:
+  frequency_minutes: 15
+  required_valid_minutes: 12
+sampling: station_balanced
+window:
+  seq_len: 256
+  pred_len: 96
+selection_metric: trajectory_physical_position_macro_mae
+loader:
+  num_workers: 2
+  persistent_workers: true
+  prefetch_factor: 2
+output_root: outputs/neon_onsite_group_v1
+prepared_root: outputs/neon_onsite_group_v1/prepared
+rain:
+  preceding_hours: 24
+  positive_threshold: 0.0

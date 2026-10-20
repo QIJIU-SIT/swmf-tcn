@@ -1,0 +1,590 @@
+[
+  {
+    "source": "src/nerrs_faith/neon_io.py",
+    "destination": "src/nerrs_faith/neon_io.py",
+    "source_sha256": "db14e912564ba2c7320c0f9932bf581b8252a8745b14d19caa967c471dc2ffc2",
+    "release_sha256": "db14e912564ba2c7320c0f9932bf581b8252a8745b14d19caa967c471dc2ffc2",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 236
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_pipeline.py",
+    "destination": "src/nerrs_faith/neon_pipeline.py",
+    "source_sha256": "64937269d55192e13ebe21bc0c40779863aeeeac6edfe2476f29c2d42dd402fb",
+    "release_sha256": "64937269d55192e13ebe21bc0c40779863aeeeac6edfe2476f29c2d42dd402fb",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 175
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_data.py",
+    "destination": "src/nerrs_faith/neon_data.py",
+    "source_sha256": "777eeaa0e3fcdb40e85bf01988c69406433adf6d9030fa3e9e915a5c643a8781",
+    "release_sha256": "777eeaa0e3fcdb40e85bf01988c69406433adf6d9030fa3e9e915a5c643a8781",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 107
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_audit.py",
+    "destination": "src/nerrs_faith/neon_audit.py",
+    "source_sha256": "4d8ef1dd2f1d0eca7d5405861dc886a49e6ff4971df878cd7ef7bb90e11a16c5",
+    "release_sha256": "4d8ef1dd2f1d0eca7d5405861dc886a49e6ff4971df878cd7ef7bb90e11a16c5",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 176
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_onsite_data.py",
+    "destination": "src/nerrs_faith/neon_onsite_data.py",
+    "source_sha256": "4225193af8cd82124ab5f9acd33e48b1dd7de6ac296084537ff5a5fada6ee735",
+    "release_sha256": "4225193af8cd82124ab5f9acd33e48b1dd7de6ac296084537ff5a5fada6ee735",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 149
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_onsite_audit.py",
+    "destination": "src/nerrs_faith/neon_onsite_audit.py",
+    "source_sha256": "4aa8e1eb91a6fe8f44e7ad085d57b486b1f3064a5c926e063494220f2bec5c4d",
+    "release_sha256": "4aa8e1eb91a6fe8f44e7ad085d57b486b1f3064a5c926e063494220f2bec5c4d",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 146
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_baselines.py",
+    "destination": "src/nerrs_faith/neon_baselines.py",
+    "source_sha256": "362eccd40dbaa6ebac610d0cebf84453470b71b38a4472a09fd67d42e2785ea3",
+    "release_sha256": "362eccd40dbaa6ebac610d0cebf84453470b71b38a4472a09fd67d42e2785ea3",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 58
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/hslf_training.py",
+    "destination": "src/nerrs_faith/hslf_training.py",
+    "source_sha256": "df852ced699fcd7b631d8cfa802178da40ef500257e7daae3287d49a28a58a05",
+    "release_sha256": "df852ced699fcd7b631d8cfa802178da40ef500257e7daae3287d49a28a58a05",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 518
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/hslf_loss.py",
+    "destination": "src/nerrs_faith/hslf_loss.py",
+    "source_sha256": "51ca9053149eb6efffc6c1fd1a30f8fa99c3b5f0ad40c3b9115f9705d080a4fd",
+    "release_sha256": "51ca9053149eb6efffc6c1fd1a30f8fa99c3b5f0ad40c3b9115f9705d080a4fd",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 35
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/streaming_metrics.py",
+    "destination": "src/nerrs_faith/streaming_metrics.py",
+    "source_sha256": "09da512c962ab89147d0a1cb16394d6ec0f26db7cca43d88cb3973968ec9df0b",
+    "release_sha256": "09da512c962ab89147d0a1cb16394d6ec0f26db7cca43d88cb3973968ec9df0b",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 34
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/protocol_v2.py",
+    "destination": "src/nerrs_faith/protocol_v2.py",
+    "source_sha256": "5acde026698d837aafa579189838f54a0c59a5c5a22249c693537a40ab99b311",
+    "release_sha256": "5acde026698d837aafa579189838f54a0c59a5c5a22249c693537a40ab99b311",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 81
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/hslf_data.py",
+    "destination": "src/nerrs_faith/hslf_data.py",
+    "source_sha256": "86e9f271fccef26bd212f818941378b18916b67d0c7ac718292700cdbe7e35e9",
+    "release_sha256": "fdfe7ae8ee25fe2da8cba0394a953da13fde91a451525f2efab9e25eb5427f9b",
+    "source_ranges": [
+      {
+        "start": 166,
+        "end": 177
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_pilot.py",
+    "destination": "src/nerrs_faith/neon_pilot.py",
+    "source_sha256": "c3d29a24918c14a2c365e7d78e623d8891a657221f43858f3437e4440c942151",
+    "release_sha256": "27792b2a4155784c8579a31a4054361039cf90ed97d0616c009d300cb947b377",
+    "source_ranges": [
+      {
+        "start": 54,
+        "end": 67
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_onsite_experiment.py",
+    "destination": "src/nerrs_faith/neon_onsite_experiment.py",
+    "source_sha256": "4cd403662207fe350f08cfa745cf3d96e40041c3d12da95205e76e30d24ca818",
+    "release_sha256": "ed3332d2d3fdf76db693ed46c56a9779b81f853b9541e1027783f64e3c32ac11",
+    "source_ranges": [
+      {
+        "start": 44,
+        "end": 53
+      },
+      {
+        "start": 56,
+        "end": 97
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_fusion_depth.py",
+    "destination": "src/nerrs_faith/neon_fusion_depth.py",
+    "source_sha256": "e2e97571d855966e19cbbc5e345ae7e8d14f190c5d8e1c0157acb3d444576362",
+    "release_sha256": "3afe93844cda7ef2c6bab6c5c96f0eb06386ec6fbaee5bc105abd1031ec84242",
+    "source_ranges": [
+      {
+        "start": 28,
+        "end": 84
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_controlled_weather_ablation.py",
+    "destination": "src/nerrs_faith/neon_controlled_weather_ablation.py",
+    "source_sha256": "98d1f941bc225460fb69c7cedb95945f2e37258914ff182cd7b2dc231ca4d014",
+    "release_sha256": "2d06a3bfb98d3d82b4b93433eb50a11ad471e09e84dcc92aaae078b66e07006a",
+    "source_ranges": [
+      {
+        "start": 56,
+        "end": 60
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_onsite_expanded_test.py",
+    "destination": "src/nerrs_faith/neon_onsite_expanded_test.py",
+    "source_sha256": "a4e3a2e8d9fdbb0e0536cea29ac542f83a045577a38ab01f84af24911bd953b6",
+    "release_sha256": "2789e9e04d058475f9aff5390764f8efe01ce520832a1c7858d775040441b4a2",
+    "source_ranges": [
+      {
+        "start": 36,
+        "end": 45
+      },
+      {
+        "start": 48,
+        "end": 71
+      },
+      {
+        "start": 74,
+        "end": 85
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/neon_full_smoke.py",
+    "destination": "src/nerrs_faith/neon_full_smoke.py",
+    "source_sha256": "98b8abe4309942abc4c07fb3a0fd18ba4caaa86b7f3569035c0e5c5142fcc84b",
+    "release_sha256": "a24614e65858b76057298333998e27a13089098909c42ae4477ba9715919de73",
+    "source_ranges": [
+      {
+        "start": 252,
+        "end": 253
+      },
+      {
+        "start": 255,
+        "end": 256
+      },
+      {
+        "start": 261,
+        "end": 262
+      },
+      {
+        "start": 264,
+        "end": 265
+      },
+      {
+        "start": 330,
+        "end": 351
+      },
+      {
+        "start": 493,
+        "end": 501
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": [
+      {
+        "before": ", N3LagResidualAdapter",
+        "after": ""
+      },
+      {
+        "before": ", F4FusionOperatorAdapter, F4NeighborDepthAdapter, F4EventHorizonResidualAdapter, F4LMCAAdapter",
+        "after": ""
+      }
+    ],
+    "release_adapter_note": "Retain formal baseline constructors; remove unrelated isinstance branches/imports; new _build resolves vendored PatchTST relative to repository root."
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/schema.py",
+    "destination": "src/nerrs_faith/benchmark/schema.py",
+    "source_sha256": "a092a328bd8f006911a2b7af13b4fe6b945d4332bc65108e2e6b266f3d30f858",
+    "release_sha256": "a092a328bd8f006911a2b7af13b4fe6b945d4332bc65108e2e6b266f3d30f858",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 238
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/adapter.py",
+    "destination": "src/nerrs_faith/benchmark/adapter.py",
+    "source_sha256": "9a0b090e44acfe198625db154b0dbf7645199535089ee365189c1189776ee3fe",
+    "release_sha256": "9a0b090e44acfe198625db154b0dbf7645199535089ee365189c1189776ee3fe",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 33
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/models/neon_multivariate.py",
+    "destination": "src/nerrs_faith/benchmark/models/neon_multivariate.py",
+    "source_sha256": "fe418e11b2e86878bf30a496d2bcbfba24ffbc0b747b0773b0f6e2af095b29d4",
+    "release_sha256": "fe418e11b2e86878bf30a496d2bcbfba24ffbc0b747b0773b0f6e2af095b29d4",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 212
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/models/fusion_depth_tcn.py",
+    "destination": "src/nerrs_faith/benchmark/models/fusion_depth_tcn.py",
+    "source_sha256": "f9ded2fadd7e088199d13c04320db7b6450114826e534c27687fd76c1c26a60e",
+    "release_sha256": "f9ded2fadd7e088199d13c04320db7b6450114826e534c27687fd76c1c26a60e",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 114
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/models/f4_tcn_factorial.py",
+    "destination": "src/nerrs_faith/benchmark/models/f4_tcn_factorial.py",
+    "source_sha256": "4a45e2577416a1a4d3309f507670965267d71d6e66801c3700dfdd932e43c874",
+    "release_sha256": "4a45e2577416a1a4d3309f507670965267d71d6e66801c3700dfdd932e43c874",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 238
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/models/f4_depth_double_res.py",
+    "destination": "src/nerrs_faith/benchmark/models/f4_depth_double_res.py",
+    "source_sha256": "f39fc8405ec8be12d52875f4170febba21288c3bdd7fca22b168d6afd1bc545f",
+    "release_sha256": "f39fc8405ec8be12d52875f4170febba21288c3bdd7fca22b168d6afd1bc545f",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 83
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/models/shared_gru.py",
+    "destination": "src/nerrs_faith/benchmark/models/shared_gru.py",
+    "source_sha256": "967ec1a40a63fba594e9738a7ece3dd0218e72e65717259468b22c5492e6320a",
+    "release_sha256": "967ec1a40a63fba594e9738a7ece3dd0218e72e65717259468b22c5492e6320a",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 132
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/models/patchtst.py",
+    "destination": "src/nerrs_faith/benchmark/models/patchtst.py",
+    "source_sha256": "9cc065faced0a57af98566ecea46bdbdae2f64ba8a2fed2dc8b4b1019dbe92b3",
+    "release_sha256": "9cc065faced0a57af98566ecea46bdbdae2f64ba8a2fed2dc8b4b1019dbe92b3",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 106
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/models/patchtst_mv.py",
+    "destination": "src/nerrs_faith/benchmark/models/patchtst_mv.py",
+    "source_sha256": "c0643cf2d010b2110f7a46f818b412e6593beb56e1cbfcf82b0e8c9dbb2cf0f2",
+    "release_sha256": "c0643cf2d010b2110f7a46f818b412e6593beb56e1cbfcf82b0e8c9dbb2cf0f2",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 74
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "src/nerrs_faith/benchmark/models/source_loader.py",
+    "destination": "src/nerrs_faith/benchmark/models/source_loader.py",
+    "source_sha256": "f392822e6bc630f4c448c7c9a7d3c12a0418e9bb264f8ed5084cce95405f05c2",
+    "release_sha256": "f392822e6bc630f4c448c7c9a7d3c12a0418e9bb264f8ed5084cce95405f05c2",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 94
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "supporting/training_extension.py",
+    "destination": "supporting/training_extension.py",
+    "source_sha256": "ebf96e1c9b5a129f8f111094f0f760af1486860f2566567741ba31876bc1c484",
+    "release_sha256": "8a1db04c56618f9e56f525cc69ebebcf9e16d4edd02c43c65c381e045503ef43",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 379
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "supporting/training_extension_v2.py",
+    "destination": "supporting/training_extension_v2.py",
+    "source_sha256": "c47df6084f7accbda62d67bb6006bbb6c9fce0a65e17cce6ef4bf2ebb8ae92ad",
+    "release_sha256": "c47df6084f7accbda62d67bb6006bbb6c9fce0a65e17cce6ef4bf2ebb8ae92ad",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 379
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "supporting/test_2024_pairing.py",
+    "destination": "supporting/test_2024_pairing.py",
+    "source_sha256": "b5cb07fa2f9861cb835b1e7d45ec4006c02177a4205fcdd2cbe57756ba736a2a",
+    "release_sha256": "8eac0632c5e5263623f106d9895a4eef49cf2d48a20f5d97f9c40952d090f55d",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 65
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "supporting/test_2024_export.py",
+    "destination": "supporting/test_2024_export.py",
+    "source_sha256": "69ffe240f2eb84a375dfd1556e1b398d160bb912a64a1c3cd18d2da2b172e4a1",
+    "release_sha256": "a256cac4cba7944f43d2955207edbc0b917bdb78e3e10f49286c3a99fdcd76c1",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 26
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  },
+  {
+    "source": "supporting/neon_training_extension.py",
+    "destination": "supporting/neon_training_extension.py",
+    "source_sha256": "9102583a5a83acb50ce934c30b3ff1dcedb0d9437a4d9461a7378683aec723be",
+    "release_sha256": "c9fd80ba1a52b342650553686c3134a81a32ce6939c6647beae6ad2971220b9f",
+    "source_ranges": [
+      {
+        "start": 35,
+        "end": 35
+      },
+      {
+        "start": 52,
+        "end": 55
+      },
+      {
+        "start": 90,
+        "end": 99
+      },
+      {
+        "start": 123,
+        "end": 128
+      },
+      {
+        "start": 131,
+        "end": 138
+      },
+      {
+        "start": 463,
+        "end": 474
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": [
+      {
+        "before": "ROOT = Path(__file__).resolve().parents[1]",
+        "after": "ROOT = Path(__file__).resolve().parents[1]"
+      }
+    ]
+  },
+  {
+    "source": "supporting/final_test_2024.py",
+    "destination": "supporting/final_metrics.py",
+    "source_sha256": "60202b8fcc6bcc30bdb8600d781bcfc319b1858c2e1b0be16bc666f4c0e13855",
+    "release_sha256": "7634251b7849ed8f20a5713e3bdcfbc1b82d7f9e6a9a7cbce3a148600d9e5faa",
+    "source_ranges": [
+      {
+        "start": 103,
+        "end": 109
+      },
+      {
+        "start": 111,
+        "end": 116
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": []
+  },
+  {
+    "source": "analysis/neon_onsite_2024/finalize.py",
+    "destination": "analysis/neon_onsite_2024/finalize.py",
+    "source_sha256": "052f6ae190475ec34e96c4acf9bae07f98700edde0375b48333cd16eeabc1a62",
+    "release_sha256": "3f353e93c222ecf6cc7caaa86f96cddad29a55afc8e90f14aec1ed9ce87160a7",
+    "source_ranges": [
+      {
+        "start": 25,
+        "end": 25
+      },
+      {
+        "start": 58,
+        "end": 65
+      },
+      {
+        "start": 253,
+        "end": 278
+      },
+      {
+        "start": 28,
+        "end": 28
+      }
+    ],
+    "mode": "selected_definitions_or_path_adapter",
+    "edits": [],
+    "release_adapter_note": "HORIZON_BANDS constant is retained verbatim alongside bootstrap definitions."
+  },
+  {
+    "source": "src/scripts/build_neon_onsite_group.py",
+    "destination": "src/scripts/build_neon_onsite_group.py",
+    "source_sha256": "c29934dec17e282adc53610203305cf067ed70071af7519ca47f82654344348e",
+    "release_sha256": "c29934dec17e282adc53610203305cf067ed70071af7519ca47f82654344348e",
+    "source_ranges": [
+      {
+        "start": 1,
+        "end": 50
+      }
+    ],
+    "mode": "copy",
+    "edits": []
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "upstream": "https://github.com/yuqinie98/PatchTST",
+  "local_commit": "not resolved from local copy",
+  "original_supervised_source_sha256": "9e6bd244c2a3ca3e2cb3ebfeb5a21d3a6a8cfe6364ab9ab2797be0270ab2e970",
+  "extracted_supervised_source_sha256": "5152ea7eb5aa9cd86e9fb64fbdb338b4b0364b787f9ebefa870a9682d3374f9f",
+  "files": [
+    {
+      "path": "PatchTST_supervised/layers/PatchTST_backbone.py",
+      "original_sha256": "df67173153787c2356bdfb6491159cd754332ef7382986efe879e1fbea8ebf26",
+      "release_sha256": "df67173153787c2356bdfb6491159cd754332ef7382986efe879e1fbea8ebf26",
+      "byte_identical": true
+    },
+    {
+      "path": "PatchTST_supervised/layers/PatchTST_layers.py",
+      "original_sha256": "21c06c70a90c60ee2a269b5c600c702834dea22cdfd72915e6b0f8b4a28db3f6",
+      "release_sha256": "21c06c70a90c60ee2a269b5c600c702834dea22cdfd72915e6b0f8b4a28db3f6",
+      "byte_identical": true
+    },
+    {
+      "path": "PatchTST_supervised/layers/RevIN.py",
+      "original_sha256": "e64c0ccded9228b347134e7368420d3fb10f70c75145b5ff2d8bdd8c3af59df6",
+      "release_sha256": "e64c0ccded9228b347134e7368420d3fb10f70c75145b5ff2d8bdd8c3af59df6",
+      "byte_identical": true
+    },
+    {
+      "path": "PatchTST_supervised/models/PatchTST.py",
+      "original_sha256": "49d8bb865e1226d6338842f4b33c4bc6992cefb048dc2a4a5a8c410ca708586b",
+      "release_sha256": "49d8bb865e1226d6338842f4b33c4bc6992cefb048dc2a4a5a8c410ca708586b",
+      "byte_identical": true
+    }
+  ],
+  "revin_license_source": "https://raw.githubusercontent.com/ts-kim/RevIN/master/License"
+}
